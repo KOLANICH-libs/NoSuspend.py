@@ -36,6 +36,7 @@ from collections import defaultdict
 from enum import IntFlag
 from enum import _decompose as _enumDecompose  # if you use an older python, which library, you can upgrade this library from the newest one, it worked for me when I have used the lib from 3.6.1 on 3.4
 
+warnings.warn("We have moved from M$ GitHub to https://codeberg.org/KOLANICH-libs/NoSuspend.py, read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 class SuspendInhibitionState(IntFlag):
 	"""Made compatible to the one used by Microsoft"""
